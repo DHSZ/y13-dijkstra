@@ -25,4 +25,6 @@ While the unvisited list is not empty:
 
 Return the visited list
 ```
-Once you have visited all nodes, you will receive a data structure containing all of the optimum routes from your starting node to all other nodes in the graph. Use this information to output the correct total weight of the journey and all of the nodes visited.
+Once you have visited all nodes, you will receive a data structure containing all of the optimum routes from your starting node to each node in the graph. 
+
+Use this information to output the correct route from your starting node to the finishing node along with the total weight of the journey.
