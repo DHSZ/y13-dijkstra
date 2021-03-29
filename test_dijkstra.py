@@ -12,12 +12,12 @@ def test_b_to_b():
     assert shortest_path(test_graph, 'B', 'B') == "B - 0"
 
 
-def test_a_to_d():
-    assert shortest_path(test_graph, 'A', 'D') == "ABD - 9"
-
-
 def test_c_to_b():
     assert shortest_path(test_graph, 'C', 'B') == "CB - 3"
+
+    
+def test_a_to_d():
+    assert shortest_path(test_graph, 'A', 'D') == "ABD - 9"
 
 
 def test_a_to_e():
